@@ -1,4 +1,5 @@
 from pydantic import BaseModel
+from typing import Optional
 
 
 class VideoSearchData(BaseModel):
@@ -12,7 +13,7 @@ class VideoSearchData(BaseModel):
     review: int
     pubdate: int
     duration: str
-    rank_score: int
+    rank_score: Optional[int] = None
     like: int
 
 
