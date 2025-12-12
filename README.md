@@ -1,7 +1,7 @@
 ## Dify Plugin for Bilibili Search
 
 **Author:** jingfelix
-**Version:** 0.0.1
+**Version:** 0.0.3
 **Type:** tool
 
 ### Description
